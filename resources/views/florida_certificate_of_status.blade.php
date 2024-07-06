@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap -->
@@ -13,12 +13,11 @@
     <!--  -->
     <title>Document</title>
     <link rel="stylesheet" href="{{url('/public/stylebootstrap.css')}}" />
-    
 </head>
 
 <body>
 @include('sections.header')
-    <div class="container-fluid bg-dark-blue text-light p-5">
+<div class="container-fluid bg-dark-blue text-light p-5">
       <div class="row align-items-center">
         <div class="col-md-6  d-flex flex-column align-items-start gap-15">
           <h1 class="display-4 playfair-display-font">Florida Certificate of Status</h1>
@@ -185,7 +184,5 @@
   </div>
     @include('sections.footer')
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </html>

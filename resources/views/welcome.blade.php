@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <!--  -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- font2 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="{{url('/public/style.css')}}" /> -->
+    <title>Document</title>
     <link rel="stylesheet" href="{{url('/public/stylebootstrap.css')}}" />
-    <link rel="shortcut icon" href="{{url('/public/fav-icon.png')}}" type="image/x-icon" />
-    <title>Businesscertificateservices</title>
-  </head>
-  <body>
-    <!-- header -->
-  @include('sections.header')
-  <!-- section 2 -->
-  <div class="container-fluid bg-dark-blue text-light p-5">
+</head>
+
+<body>
+@include('sections.header')
+<div class="container-fluid bg-dark-blue text-light p-5">
       <div class="row align-items-center">
         <div class="col-md-6 d-flex flex-column align-items-start gap-15">
           <h1 class="display-4 playfair-display-font">Florida Business Services</h1>
@@ -254,12 +240,7 @@
       </div>
     </div>
    <!-- footer  -->
-@include('sections.footer')
+    @include('sections.footer')
+</body>
 
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
 </html>
