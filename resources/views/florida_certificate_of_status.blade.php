@@ -2,34 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
-    <!-- font2 -->
-      <!-- bootstrap -->
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <!--  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet" />
-        <link rel="stylesheet" href="{{url('/public/stylebootstrap.css')}}" />
-    <link rel="shortcut icon" href="{{ url('/public/fav-icon.png') }}" type="image/x-icon" />
-    <title>Businesscertificateservices</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url('/public/stylebootstrap.css')}}" />
     
 </head>
 
 <body>
-    @include('sections.header')
+@include('sections.header')
     <div class="container-fluid bg-dark-blue text-light p-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="display-4">Florida Certificate of Status</h1>
+      <div class="row align-items-center">
+        <div class="col-md-6  d-flex flex-column align-items-start gap-15">
+          <h1 class="display-4 playfair-display-font">Florida Certificate of Status</h1>
           <p class="lead">
           Get your Florida Certificate of Status quickly and conveniently.
           </p>
@@ -48,10 +40,10 @@
     </div></div>
     <!-- sec 2 certificate of status -->
     <div class="container se2-certificate-of-status-main">
-    <h1 class='h1-certificate-of-status-se2'>Florida Certificate of Status</h1>
+    <h1 class='h1-certificate-of-status-se2 playfair-display-font'>Florida Certificate of Status</h1>
     <p >A Florida Certificate of Status, also known as a Certificate of Good Standing, is an official document issued by the Florida Secretary of State or Department of State that confirms the existence and compliance of a business entity registered in the state of Florida.</p>
     
-    <h2 class='h2-certificate-of-status-se2'>Why Your Business Needs It</h2>
+    <h2 class='h2-certificate-of-status-se2 playfair-display-font'>Why Your Business Needs It</h2>
     <p>Obtaining a Florida Certificate of Status is important for several reasons:</p>
     <ul>
       <li><strong>Compliance Verification:</strong> It serves as proof that your business is in good standing with the state authorities and has met all necessary requirements.</li>
@@ -64,7 +56,7 @@
  <div class='se3-a-certificate-of-status'>
 <div class="heading-section">
     <div class="container">
-      <h1>Secure Your Business's Future with the Certificate of Status and Tax EIN Number!</h1>
+      <h1 class='playfair-display-font'>Secure Your Business's Future with the Certificate of Status and Tax EIN Number!</h1>
     </div>
   </div></div>
 
@@ -181,7 +173,7 @@
       <!-- sec 2 certificate of status -->
       <div class="container se2-certificate-of-status-main">
     
-    <h2 class='h2-certificate-of-status-se2'>Advantages of Having a Certificate of Status</h2>
+    <h2 class='h2-certificate-of-status-se2 playfair-display-font'>Advantages of Having a Certificate of Status</h2>
     <p>Here are some advantages of obtaining and maintaining an active Certificate of Status for your Florida business:</p>
     <ul>
       <li><strong>Enhanced Credibility:</strong> It demonstrates to clients, partners, and stakeholders that your business is legitimate, compliant, and trustworthy.</li>
@@ -193,5 +185,7 @@
   </div>
     @include('sections.footer')
 </body>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>

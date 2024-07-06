@@ -19,7 +19,7 @@
 @include('sections.header')
     <!-- sec 2 certificate of status -->
     <div class="container se2-certificate-of-status-main">
-    <h1>Privacy Policy</h1>
+    <h1 class='playfair-display-font'>Privacy Policy</h1>
     <h4 class='h2-certificate-of-status-se2'>Introduction</h4>
     <p>These terms of service ("Terms") govern your use of the BusinessCertificateServices.com website ("Website") and the services provided by the company Business Certificate Services Florida ("Company"). By using the Website and availing the Company's services, you agree to comply with these Terms. If you do not agree with any part of these Terms, please refrain from using the Website and its services.</p>
     <h4 class='h2-certificate-of-status-se2'>Information We Collect</h4>

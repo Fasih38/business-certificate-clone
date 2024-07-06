@@ -20,7 +20,7 @@
 <div class='se3-a-certificate-of-status'>
 <div class="heading-section">
     <div class="container">
-      <h1>Business Certificate Services</h1>
+      <h1 class='playfair-display-font'>Business Certificate Services</h1>
       <img class='se1-about-img' src="https://www.businesscertificateservices.com/images/about-intro.jpg" alt="">
     </div>
   </div></div>
@@ -29,7 +29,7 @@
    <!-- sec 2 certificate of status -->
    <div class="container se2-certificate-of-status-main">
     
-    <h2>Our Story</h2>
+    <h2 class='playfair-display-font'>Our Story</h2>
     <p>Welcome to BusinessCertificateServices.com! We are your trusted partner when it comes to obtaining Certificate of Statuses for Florida corporations. Our mission is to provide a streamlined and efficient service that allows individuals and businesses to easily acquire the documentation they need to establish their legal standing within the state of Florida.</p>
     <p>At Florida Certificates of Status, we understand the importance of maintaining a current and active status for your corporation. Whether you're a seasoned business owner or just starting out, having a Certificate of Status is crucial for various transactions, including opening bank accounts, securing loans, entering into contracts, or demonstrating compliance with state regulations.</p>
     <p>Our team of experienced professionals is dedicated to simplifying the process of obtaining a Certificate of Status. We have in-depth knowledge of the requirements and procedures involved, allowing us to guide you through the application process with ease. With our expertise and attention to detail, we ensure that your Certificate of Status is accurate, up to date, and meets all necessary legal standards.</p>

@@ -32,9 +32,9 @@
   @include('sections.header')
   <!-- section 2 -->
   <div class="container-fluid bg-dark-blue text-light p-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="display-4">Florida Business Services</h1>
+      <div class="row align-items-center">
+        <div class="col-md-6 d-flex flex-column align-items-start gap-15">
+          <h1 class="display-4 playfair-display-font">Florida Business Services</h1>
           <p class="lead">
             Simplifying Success, One Form at a Time. Offering Business Services
             and Support since 2022
@@ -55,7 +55,7 @@
     <!-- section 3 -->
     <section class="certificate-section">
       <div class="container">
-        <h1>
+        <h1 class='playfair-display-font'>
           Secure your business's reputation and credibility with our hassle-free
           <span class="highlight">Certificate of Status</span> service.
         </h1>
@@ -71,7 +71,7 @@
     <!-- cards 1 -->
     <div class="bg-dark-blue">
       <div class="container text-white py-5">
-        <h2 class="h1 text-center">
+        <h2 class="h1 text-center playfair-display-font">
           Top Reasons why you should use our services:
         </h2>
       </div>
@@ -88,7 +88,7 @@
             alt="Card image 1"
           />
           <div class="card-body">
-            <h5 class="card-title">Time-saving</h5>
+            <h5 class="card-title playfair-display-font">Time-saving</h5>
             <p class="card-text">
               Streamlines the EIN registration and Certificate of Status
               process. Allows you to quickly and efficiently obtain a Employer
@@ -106,7 +106,7 @@
             alt="Card image 2"
           />
           <div class="card-body">
-            <h5 class="card-title">Convenience</h5>
+            <h5 class="card-title playfair-display-font">Convenience</h5>
             <p class="card-text">
               Easy process. This makes it accessible even to those who are not
               familiar with business registration procedures, reducing confusion
@@ -124,7 +124,7 @@
             alt="Card image 3"
           />
           <div class="card-body">
-            <h5 class="card-title">Expert Support and Guidance</h5>
+            <h5 class="card-title playfair-display-font">Expert Support and Guidance</h5>
             <p class="card-text">
               This can be invaluable for new business owners or those unfamiliar
               with the specifics of business documentation, ensuring accuracy
@@ -138,7 +138,7 @@
     <!-- sec 4 part1 -->
     <div class="">
       <div class="container text-white py-5">
-        <h2 class="h1 text-center text-dark">
+        <h2 class="h1 text-center text-dark playfair-display-font">
           Simplifying Success, One Form at a Time
         </h2>
       </div>
@@ -154,7 +154,7 @@
           />
         </div>
         <div class="col-md-6">
-          <h2 class="display-5">Built for New Florida Businesses</h2>
+          <h2 class="display-5 playfair-display-font">Built for New Florida Businesses</h2>
           <p class="lead">
             Streamlines the bureaucratic hurdles for Florida businesses,
             offering a hassle-free, efficient platform for obtaining crucial
@@ -242,7 +242,7 @@
       <div
         class="container text-white py-5 d-flex flex-column align-content-center"
       >
-        <h2>
+        <h2 class='playfair-display-font'>
           Say goodbye to being on the phone for hours on hold with the IRS.
         </h2>
         <p>

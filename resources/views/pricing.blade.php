@@ -20,7 +20,7 @@
 <div class='se3-a-certificate-of-status'>
 <div class="heading-section">
     <div class="container">
-      <h1>Secure Your Business's Future with the Certificate of Status and Tax EIN Number!</h1>
+      <h1 class='playfair-display-font'>Secure Your Business's Future with the Certificate of Status and Tax EIN Number!</h1>
        </div>
   </div></div>
   <!-- cards 1 -->

@@ -27,9 +27,9 @@
 <body>
     @include('sections.header')
     <div class="container-fluid bg-dark-blue text-light p-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="display-4">EIN Registration Service</h1>
+      <div class="row align-items-center">
+        <div class="col-md-6  d-flex flex-column align-items-start ">
+          <h1 class="display-4 playfair-display-font gap-15">EIN Registration Service</h1>
           <p class="lead">
           A new employer identification number (EIN) from the IRS made easy. Convenient and Fast IRS Ein Registration Service.
           </p>
@@ -48,10 +48,10 @@
     </div></div>
     <!-- sec 2 certificate of status -->
     <div class="container se2-certificate-of-status-main">
-    <h1 class='h1-certificate-of-status-se2'>Employer Identification Number (EIN) Application</h1>
+    <h1 class='h1-certificate-of-status-se2 playfair-display-font'>Employer Identification Number (EIN) Application</h1>
     <p >An Employer Identification Number (EIN), also known as a Federal Tax Identification Number, is a unique nine-digit number assigned by the Internal Revenue Service (IRS) to business entities operating in the United States. It is used for tax filing and reporting purposes.</p>
     
-    <h2 class='h2-certificate-of-status-se2'>Why Your Business Needs an EIN</h2>
+    <h2 class='h2-certificate-of-status-se2 playfair-display-font'>Why Your Business Needs an EIN</h2>
     <p>Applying for an EIN is a critical step for new businesses for several reasons:</p>
     <ul>
       <li><strong>Tax Reporting:</strong>An EIN is necessary for filing federal taxes and for most state tax purposes.</li>
@@ -68,7 +68,7 @@
  <div class='se3-a-certificate-of-status'>
 <div class="heading-section">
     <div class="container">
-      <h1>EIN Application Service
+      <h1 class='playfair-display-font'>EIN Application Service
       Get Access to Banking Services and IRS Compliance</h1>
     </div>
   </div></div>
@@ -167,7 +167,7 @@ PDF Email of Certificate of Status
       <!-- sec 2 certificate of status -->
       <div class="container se2-certificate-of-status-main">
     
-    <h2 class='h2-certificate-of-status-se2'>Advantages of Obtaining an Employer Identification Number (EIN)</h2>
+    <h2 class='h2-certificate-of-status-se2 playfair-display-font'>Advantages of Obtaining an Employer Identification Number (EIN)</h2>
     <p>Here are some advantages of obtaining and maintaining an active Employer Identification Number (EIN) for your business:</p>
     <ul>
       <li><strong>Business Identity:</strong>An EIN establishes your business as a separate legal entity, enhancing credibility and professionalism.</li>

@@ -23,7 +23,7 @@
 <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 class="header-text mt-5">Search for your <span class="highlight-text">Company</span> and order your <span class="highlight-text">Certificate of Status</span>.</h1>
+        <h1 class="header-text mt-5 playfair-display-font">Search for your <span class="highlight-text">Company</span> and order your <span class="highlight-text">Certificate of Status</span>.</h1>
         <p class="text-center">Enter your company name or document number. Then select your company to start your order. Your Certificate of Status will be processed and sent to your email within 24 hours.</p>
       </div>
       <div class="col-12 custom-input-group">

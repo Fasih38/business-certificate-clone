@@ -19,7 +19,7 @@
 @include('sections.header')
     <!-- sec 2 certificate of status -->
     <div class="container se2-certificate-of-status-main">
-    <h2>Refund Policy</h2>
+    <h2 class='playfair-display-font'>Refund Policy</h2>
     <h4 class='h2-certificate-of-status-se2'>Refund Policy Overview</h4>
     <p>At Business Certificate Services, we strive to provide exceptional services and customer satisfaction. However, please note that due to the nature of our services, we have a strict no-refund policy. Once an order is placed and payment is made, refunds will not be issued.</p>
     <h5 class='h2-certificate-of-status-se2'>Exceptions</h5>

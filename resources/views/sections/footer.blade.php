@@ -8,7 +8,7 @@
             <img
               src="https://www.businesscertificateservices.com/build/assets/logo.d19fa9ed.png"
               alt="Logo"
-              class="footer-logo logo-footor"
+              class="footer-logo logo-footor grayscale"
             />
             <p>
               Fast and convenient access to your Florida Certificate of Status.
@@ -19,23 +19,23 @@
               <div class="col-md-3">
                 <h5>How it works</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="{{url('/pricing')}}">Pricing</a></li>
-                  <li><a href="#">Service Areas</a></li>
+                  <li><a href="#" class='cursor-pointer'>Overview</a></li>
+                  <li><a href="{{url('/pricing')}}" class='cursor-pointer'>Pricing</a></li>
+                  <li><a href="#" class='cursor-pointer'>Service Areas</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
                 <h5>Resources</h5>
                 <ul class="list-unstyled">
-                  <li><a href="{{url('/refund')}}">Refund Policy</a></li>
-                  <li><a href="{{url('/contact')}}">Contact Us</a></li>
+                  <li><a href="{{url('/refund')}}" class='cursor-pointer'>Refund Policy</a></li>
+                  <li><a href="{{url('/contact')}}" class='cursor-pointer'>Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
                 <h5>Products</h5>
                 <ul class="list-unstyled">
-                  <li><a href="{{url('/florida-certificate-of-status')}}">Florida Certificate of Status</a></li>
-                  <li><a href="{{url('/irs-ein-registration-service')}}">EIN Registration Service</a></li>
+                  <li><a href="{{url('/florida-certificate-of-status')}}" class='cursor-pointer'>Florida Certificate of Status</a></li>
+                  <li><a href="{{url('/irs-ein-registration-service')}}" class='cursor-pointer'>EIN Registration Service</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
@@ -53,9 +53,9 @@
       <!-- footer 2 -->
     <footer class=" text-lg-start">
       <!-- d-flex -->
-      <div class="container p-4 d-flex justify-content-between align-content-center">
-        <p>© BusinessCertificateServices.com. 2022-2024 All rights reserved.</p>
-        <div class="d-flex my-flex-container">
+      <div class="container p-4 d-flex justify-content-between align-content-center flex-wrap">
+        <p class="order-footer-1 ">© BusinessCertificateServices.com. 2022-2024 All rights reserved.</p>
+        <div class="d-flex my-flex-container mb-2">
           <a href="#" class="me-4 text-reset">
             <i class="fab fa-twitter"
               ><svg
